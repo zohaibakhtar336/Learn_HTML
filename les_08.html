@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header, nav, main, section, article, aside, figure, footer {
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #ddd;
+        }
+
+        header {
+            background-color: #f4f4f4;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav {
+            background-color: #ddd;
+            padding: 5px;
+        }
+
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: black;
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        section {
+            flex: 2;
+        }
+
+        aside {
+            flex: 1;
+            background-color: #f9f9f9;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main>
+
+        <!-- Hero Section -->
+        <section>
+            <h2>About Us</h2>
+            <p>Welcome to our website. We provide the best services.</p>
+        </section>
+
+        <!-- Article Section -->
+        <section>
+            <h2>Latest Articles</h2>
+
+            <article>
+                <h3>Article 1</h3>
+                <p>This is the first article about web development.</p>
+            </article>
+
+            <article>
+                <h3>Article 2</h3>
+                <p>This is another important article you should read.</p>
+            </article>
+        </section>
+
+        <!-- Aside Section (Sidebar) -->
+        <aside>
+            <h2>Related Links</h2>
+            <ul>
+                <li><a href="#">Web Development</a></li>
+                <li><a href="#">HTML5 Guide</a></li>
+                <li><a href="#">CSS Tips</a></li>
+            </ul>
+        </aside>
+
+    </main>
+
+    <!-- Figure and Figcaption -->
+    <section>
+        <h2>Our Latest Work</h2>
+        <figure>
+            <img src="rose.jpg" alt="Example Work" width="300">
+            <figcaption>Fig.1 - Example of our latest project.</figcaption>
+        </figure>
+    </section>
+
+    <!-- Details and Summary -->
+    <section>
+        <h2>Frequently Asked Questions</h2>
+        <details>
+            <summary>What services do you offer?</summary>
+            <p>We offer web development, SEO, and digital marketing services.</p>
+        </details>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        &copy; 2025 My Website | All rights reserved.
+    </footer>
+
+</body>
+
+</html>
