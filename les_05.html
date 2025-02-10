@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        h1, h2 {
+            color: #222;
+        }
+
+        div, p, table, form, article, section, header, footer, nav {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            background: #fff;
+            border-radius: 5px;
+        }
+
+        ul, ol {
+            padding-left: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        thead {
+            background: #007bff;
+            color: #fff;
+        }
+
+        tfoot {
+            background: #f8f9fa;
+            font-weight: bold;
+        }
+
+        img {
+            display: block;
+            margin: 10px 0;
+            width: 100px;
+            border-radius: 5px;
+        }
+
+        .inline-block {
+            display: inline-block;
+            padding: 5px 10px;
+            background: #007bff;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            margin: 5px;
+        }
+
+        button {
+            background: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #218838;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #222;
+            color: white;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Block Elements</h1>
+
+    <h2>1. Heading Elements</h2>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+
+    <h2>2. Paragraph Element</h2>
+    <p>This is a paragraph. It spans the full width.</p>
+
+    <h2>3. Division (Div) Element</h2>
+    <div>This is a block-level div element with a light background.</div>
+
+    <h2>4. Lists</h2>
+    <ul>
+        <li>Unordered List Item 1</li>
+        <li>Unordered List Item 2</li>
+    </ul>
+    <ol>
+        <li>Ordered List Item 1</li>
+        <li>Ordered List Item 2</li>
+    </ol>
+
+    <h2>5. Table</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Heading 1</th>
+                <th>Heading 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Data 1</td>
+                <td>Data 2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Table Footer</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h2>6. Form Elements</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email">
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <h2>7. Article and Section</h2>
+    <article>
+        <h3>Article Title</h3>
+        <p>This is an article block.</p>
+    </article>
+
+    <section>
+        <h3>Section Title</h3>
+        <p>This is a section block.</p>
+    </section>
+
+    <h2>8. Header, Footer, and Nav</h2>
+    <header>
+        <h3>Website Header</h3>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#" class="inline-block">Home</a></li>
+            <li><a href="#" class="inline-block">About</a></li>
+        </ul>
+    </nav>
+
+    <footer>
+        <p>Website Footer &copy; 2025</p>
+    </footer>
+
+    <h1>Inline Elements</h1>
+
+    <h2>1. Span</h2>
+    <p>This is a <span style="color: red;">span</span> inside a paragraph.</p>
+
+    <h2>2. Anchor (Link)</h2>
+    <a href="https://www.google.com" class="inline-block">Visit Google</a>
+
+    <h2>3. Bold, Italic, Underline</h2>
+    <p><b>Bold</b>, <i>Italic</i>, <u>Underlined</u></p>
+
+    <h2>4. Small, Superscript, Subscript</h2>
+    <p><small>Small Text</small></p>
+    <p>X<sup>2</sup> (Superscript), H<sub>2</sub>O (Subscript)</p>
+
+    <h2>5. Code and Keyboard Input</h2>
+    <p>Code Example: <code>print("Hello, World!")</code></p>
+    <p>Shortcut: <kbd>Ctrl + C</kbd></p>
+
+    <h2>6. Image and Button</h2>
+    <img src="rose.jpg" alt="rose">
+    <button>Click Me</button>
+
+    <h2>7. Abbreviation</h2>
+    <p><abbr title="Hypertext Markup Language">HTML</abbr> is a markup language.</p>
+
+</body>
+
+</html>
