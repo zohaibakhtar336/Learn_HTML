@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn HTML</title>
+</head>
+<body>
+
+    <h1>HTML Forms</h1>
+
+    <form action="post">
+
+        <h2>1. Text Input</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+        <h2>2. Email Input</h2>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <h2>3. Password Input</h2>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter password" required>
+
+        <h2>4. Number Input</h2>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="1" max="100" required>
+
+        <h2>5. Date Input</h2>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+
+        <h2>6. Radio Buttons</h2>
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+
+        <h2>7. Checkboxes</h2>
+        <label>Skills:</label>
+        <input type="checkbox" id="html" name="skills" value="HTML">
+        <label for="html">HTML</label>
+        <input type="checkbox" id="css" name="skills" value="CSS">
+        <label for="css">CSS</label>
+        <input type="checkbox" id="js" name="skills" value="JavaScript">
+        <label for="js">JavaScript</label>
+
+        <h2>8. Select Dropdown</h2>
+        <label for="city">Select City:</label>
+        <select id="city" name="city">
+            <option value="delhi">Delhi</option>
+            <option value="mumbai">Mumbai</option>
+            <option value="bangalore">Bangalore</option>
+            <option value="patna">Patna</option>
+            <option value="chennai">Chennai</option>
+            <option value="noida">Noida</option>
+        </select>
+
+        <h2>9. Textarea</h2>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" cols="30" placeholder="Enter your message..."></textarea>
+
+        <h2>10. File Upload</h2>
+        <label for="file">Upload File:</label>
+        <input type="file" id="file" name="file">
+
+        <h2>11. Hidden Input</h2>
+        <input type="hidden" name="userid" value="12345">
+
+        <h2>12. Range Input</h2>
+        <label for="experience">Experience (1-10 years):</label>
+        <input type="range" id="experience" name="experience" min="1" max="10">
+
+        <h2>13. Color Picker</h2>
+        <label for="color">Choose a color:</label>
+        <input type="color" id="color" name="color">
+
+        <h2>14. Search Box</h2>
+        <label for="search">Search:</label>
+        <input type="search" id="search" name="search" placeholder="Search something...">
+
+        <h2>15. Submit and Reset Buttons</h2>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>
