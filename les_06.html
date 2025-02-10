@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn HTML</title>
+    <style>
+        #main-heading {
+            color: darkblue;
+            text-align: center;
+            font-size: 28px;
+        }
+
+        .text {
+            font-size: 18px;
+            color: #333;
+        }
+
+        .highlight {
+            background-color: yellow;
+        }
+
+        .title {
+            font-size: 24px;
+            color: darkgreen;
+        }
+
+        .box {
+            padding: 10px;
+            border: 2px solid black;
+            margin: 5px;
+            display: inline-block;
+        }
+
+        #unique-paragraph {
+            font-style: italic;
+            color: darkred;
+        }
+
+        .btn {
+            padding: 8px 12px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .primary {
+            background-color: blue;
+            color: white;
+        }
+
+        .secondary {
+            background-color: gray;
+            color: white;
+        }
+
+        .wrapper {
+            border: 2px solid #555;
+            padding: 15px;
+            margin: 10px;
+        }
+
+        .list-item {
+            font-size: 16px;
+            padding: 5px;
+        }
+
+        .special {
+            font-weight: bold;
+            color: red;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: blue;
+            font-weight: bold;
+        }
+
+        .nav-link:hover {
+            color: darkred;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 id="main-heading">This is a Unique Heading with ID</h1>
+
+    <p class="text">This is a paragraph with a reusable class.</p>
+    <p class="text">Another paragraph with the same class.</p>
+
+    <p class="text highlight">This paragraph has multiple classes applied.</p>
+
+    <h2 id="section-title" class="title">Heading with both ID and Class</h2>
+
+    <div class="box">This is a div with class "box".</div>
+    <span class="box">This is a span with class "box".</span>
+
+    <p id="unique-paragraph">Paragraph with a unique ID.</p>
+    <div id="unique-div">Div with a unique ID.</div>
+
+    <button id="submit-btn" class="btn primary">Submit</button>
+    <button class="btn secondary">Cancel</button>
+
+    <div id="container" class="wrapper">
+        <p class="text">Nested paragraph inside a div.</p>
+        <button class="btn">Click Me</button>
+    </div>
+
+    <ul>
+        <li class="list-item">Item 1</li>
+        <li class="list-item special">Item 2 (Special)</li>
+        <li class="list-item">Item 3</li>
+    </ul>
+
+    <nav>
+        <ul>
+            <li><a href="#" class="nav-link">Go to Section 1</a></li>
+            <li><a href="#" class="nav-link">Go to Section 2</a></li>
+        </ul>
+    </nav>
+
+    <h2 id="section1">Section 1</h2>
+    <p>Content of Section 1.</p>
+
+    <h2 id="section2">Section 2</h2>
+    <p>Content of Section 2.</p>
+
+</body>
+
+</html>
